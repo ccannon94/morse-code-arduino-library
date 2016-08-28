@@ -13,6 +13,6 @@
 #ifdef MorseCodeBlink_H
 #define MorseCodeBlink_H
 
-
+include "Arduino.h"
 
 #endif // !MorseCodeBlink_H
