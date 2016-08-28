@@ -9,3 +9,10 @@
     @author Chris Cannon
     @version 0.1 08/28/2016
 */
+
+#ifdef MorseCodeBlink_H
+#define MorseCodeBlink_H
+
+
+
+#endif // !MorseCodeBlink_H
