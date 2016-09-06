@@ -35,3 +35,35 @@ MorseCodeBlink_H::sendLetterA()
   delay(blinkDuration * 3);
   digitalWrite(_pin, LOW);
 }
+
+MorseCodeBlink_H::sendLetterB()
+{
+  //dah
+  digitalWrite(_pin, HIGH);
+  delay(blinkDuration * 3);
+  digitalWrite(_pin, LOW);
+
+  //component break
+  delay(blinkDuration);
+
+  //dit
+  digitalWrite(_pin, HIGH);
+  delay(blinkDuration);
+  digitalWrite(_pin, LOW);
+
+  //component break
+  delay(blinkDuration);
+
+  //dit
+  digitalWrite(_pin, HIGH);
+  delay(blinkDuration);
+  digitalWrite(_pin, LOW);
+
+  //component break
+  delay(blinkDuration);
+
+  //dit
+  digitalWrite(_pin, HIGH);
+  delay(blinkDuration);
+  digitalWrite(_pin, LOW);
+}
