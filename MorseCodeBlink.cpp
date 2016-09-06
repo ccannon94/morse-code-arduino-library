@@ -9,3 +9,13 @@
     @author Chris Cannon
     @version 0.1 08/28/2016
 */
+
+#include "MorseCodeBlink_H"
+
+MorseCodeBlink_H::MorseCodeBlink(uint8_t pin, uint16_t blinkDuration)
+{
+  _pin = pin;
+  _blinkDuration = blinkDuration;
+
+  pinmode(pin, OUTPUT);
+}
