@@ -19,3 +19,19 @@ MorseCodeBlink_H::MorseCodeBlink(uint8_t pin, uint16_t blinkDuration)
 
   pinmode(pin, OUTPUT);
 }
+
+MorseCodeBlink_H::sendLetterA()
+{
+  //dit
+  digitalWrite(_pin, HIGH);
+  delay(blinkDuration);
+  digitalWrite(_pin, LOW);
+
+  //component break
+  delay(blinkDuration);
+
+  //dah
+  digitalWrite(_pin, HIGH);
+  delay(blinkDuration * 3);
+  digitalWrite(_pin, LOW);
+}
