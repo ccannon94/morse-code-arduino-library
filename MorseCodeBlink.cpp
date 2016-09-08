@@ -1584,3 +1584,128 @@ MorseCodeBlink_H::sendSymbolEqualsSign()
   delay(blinkDuration * 3);
   digitalWrite(_pin, LOW);
 }
+
+MorseCodeBlink_H::sendProsignAA()
+{
+  sendLetterA();
+
+  //character break
+  delay(blinkDuration * 3);
+
+  sendLetterA();
+}
+
+MorseCodeBlink_H::sendProsignAR()
+{
+  sendLetterA();
+
+  //character break 
+  delay(blinkDuration * 3);
+
+  sendLetterR();
+}
+
+MorseCodeBlink_H::sendProsignAS()
+{
+  sendLetterA();
+
+  //character break
+  delay(blinkDuration * 3);
+
+  sendLetterS();
+}
+
+MorseCodeBlink_H::sendProsignBK()
+{
+  sendLetterB();
+
+  //character break
+  delay(blinkDuration * 3);
+
+  sendLetterK();
+}
+
+MorseCodeBlink_H::sendProsignBT()
+{
+  sendLetterB();
+
+  //character break
+  delay(blinkDuration * 3);
+
+  sendLetterT();
+}
+
+MorseCodeBlink_H::sendProsignCL()
+{
+  sendLetterC();
+
+  //character break
+  delay(blinkDuration * 3);
+
+  sendLetterL();
+}
+
+MorseCodeBlink_H::sendProsignCT()
+{
+  sendLetterC();
+
+  //character break
+  delay(blinkDuration * 3);
+
+  sendLetterT();
+}
+
+MorseCodeBlink_H::sendProsignDO()
+{
+  sendLetterD();
+
+  //character break
+  delay(blinkDuration * 3);
+
+  sendLetterO();
+}
+
+MorseCodeBlink_H::sendProsignKN()
+{
+  sendLetterK();
+
+  //character break
+  delay(blinkDuration * 3);
+
+  sendLetterN();
+}
+
+MorseCodeBlink_H::sendProsignSK()
+{
+  sendLetterN();
+
+  //character break
+  delay(blinkDuration * 3);
+
+  sendLetterK();
+}
+
+MorseCodeBlink_H::sendProsignSN()
+{
+  sendLetterS();
+
+  //character break
+  delay(blinkDuration * 3);
+
+  sendLetterN();
+}
+
+MorseCodeBlink_H::sendProsignSOS()
+{
+  sendLetterS();
+
+  //character break
+  delay(blinkDuration * 3);
+
+  sendLetterO();
+
+  //character break
+  delay(blinkDuration * 3);
+
+  sendLetterS();
+}
