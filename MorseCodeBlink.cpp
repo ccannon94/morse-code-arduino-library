@@ -1709,3 +1709,178 @@ MorseCodeBlink_H::sendProsignSOS()
 
   sendLetterS();
 }
+
+MorseCodeBlink_H::sendQCodeQSL()
+{
+  sendLetterQ();
+
+  //character break
+  delay(blinkDuration * 3);
+
+  sendLetterS();
+
+  //character break
+  delay(blinkDuration * 3);
+
+  sendLetterL();
+}
+
+MorseCodeBlink_H::sendQCodeQSLQuery()
+{
+  sendLetterQ();
+
+  //character break
+  delay(blinkDuration * 3);
+
+  sendLetterS();
+
+  //character break
+  delay(blinkDuration * 3);
+
+  sendLetterL();
+
+  //character break
+  delay(blinkDuration * 3);
+
+  sendSymbolQuestionMark();
+}
+
+MorseCodeBlink_H::sendQCodeQRX()
+{
+  sendLetterQ();
+
+  //character break
+  delay(blinkDuration * 3);
+
+  sendLetterR();
+
+  //character break
+  delay(blinkDuration * 3);
+
+  sendLetterX();
+}
+
+MorseCodeBlink_H::sendQCodeQRXQuery()
+{
+  sendLetterQ();
+
+  //character break
+  delay(blinkDuration * 3);
+
+  sendLetterR();
+
+  //character break
+  delay(blinkDuration * 3);
+
+  sendLetterX();
+
+  //character break
+  delay(blinkDuration * 3);
+
+  sendSymbolQuestionMark();
+}
+
+MorseCodeBlink_H::sendQCodeQRV()
+{
+  sendLetterQ();
+
+  //character break
+  delay(blinkDuration * 3);
+
+  sendLetterR();
+
+  //character break
+  delay(blinkDuration * 3);
+
+  sendLetterV();
+}
+
+MorseCodeBlink_H::sendQCodeQRVQuery()
+{
+  sendLetterQ();
+
+  //character break
+  delay(blinkDuration * 3);
+
+  sendLetterR();
+
+  //character break
+  delay(blinkDuration * 3);
+
+  sendLetterV();
+
+  //character break
+  delay(blinkDuration * 3);
+
+  sendSymbolQuestionMark();
+}
+
+MorseCodeBlink_H::sendQCodeQRL()
+{
+  sendLetterQ();
+
+  //character break
+  delay(blinkDuration * 3);
+
+  sendLetterR();
+
+  //character break
+  delay(blinkDuration * 3);
+
+  sendLetterL();
+}
+
+MorseCodeBlink_H::sendQCodeQRLQuery()
+{
+  sendLetterQ();
+
+  //character break
+  delay(blinkDuration * 3);
+
+  sendLetterR();
+
+  //character break
+  delay(blinkDuration * 3);
+
+  sendLetterL();
+
+  //character break
+  delay(blinkDuration * 3);
+
+  sendSymbolQuestionMark();
+}
+
+MorseCodeBlink_H::sendQCodeQTH()
+{
+  sendLetterQ();
+
+  //character break
+  delay(blinkDuration * 3);
+
+  sendLetterT();
+
+  //character break
+  delay(blinkDuration * 3);
+
+  sendLetterH();
+}
+
+MorseCodeBlink_H::sendQCodeQTHQuery()
+{
+  sendLetterQ();
+
+  //character break
+  delay(blinkDuration * 3);
+
+  sendLetterT();
+
+  //character break
+  delay(blinkDuration * 3);
+
+  sendLetterH();
+
+  //character break
+  delay(blinkDuration * 3);
+
+  sendSymbolQuestionMark();
+}
