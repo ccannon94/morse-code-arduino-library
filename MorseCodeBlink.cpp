@@ -1078,55 +1078,509 @@ MorseCodeBlink_H::sendDigit9()
 
 MorseCodeBlink_H::sendSymbolFullStop()
 {
+  //dit
+  digitalWrite(_pin, HIGH);
+  delay(blinkDuration);
+  digitalWrite(_pin, LOW);
 
+  //component break
+  delay(blinkDuration);
+
+  //dah
+  digitalWrite(_pin, HIGH);
+  delay(blinkDuration * 3);
+  digitalWrite(_pin, LOW);
+
+  //component break
+  delay(blinkDuration);
+
+  //dit
+  digitalWrite(_pin, HIGH);
+  delay(blinkDuration);
+  digitalWrite(_pin, LOW);
+
+  //component break
+  delay(blinkDuration);
+
+  //dah
+  digitalWrite(_pin, HIGH);
+  delay(blinkDuration * 3);
+  digitalWrite(_pin, LOW);
+
+  //component break
+  delay(blinkDuration);
+
+  //dit
+  digitalWrite(_pin, HIGH);
+  delay(blinkDuration);
+  digitalWrite(_pin, LOW);
+
+  //dah
+  digitalWrite(_pin, HIGH);
+  delay(blinkDuration * 3);
+  digitalWrite(_pin, LOW);
 }
 
 MorseCodeBlink_H::sendSymbolComma()
 {
+  //dah
+  digitalWrite(_pin, HIGH);
+  delay(blinkDuration * 3);
+  digitalWrite(_pin, LOW);
 
+  //component break
+  delay(blinkDuration);
+
+  //dah
+  digitalWrite(_pin, HIGH);
+  delay(blinkDuration * 3);
+  digitalWrite(_pin, LOW);
+
+  //component break
+  delay(blinkDuration);
+
+  //dit
+  digitalWrite(_pin, HIGH);
+  delay(blinkDuration);
+  digitalWrite(_pin, LOW);
+
+  //component break
+  delay(blinkDuration);
+
+  //dit
+  digitalWrite(_pin, HIGH);
+  delay(blinkDuration);
+  digitalWrite(_pin, LOW);
+
+  //component break
+  delay(blinkDuration);
+
+  //dah
+  digitalWrite(_pin, HIGH);
+  delay(blinkDuration * 3);
+  digitalWrite(_pin, LOW);
+
+  //component break
+  delay(blinkDuration);
+
+  //dah
+  digitalWrite(_pin, HIGH);
+  delay(blinkDuration * 3);
+  digitalWrite(_pin, LOW);
 }
 
 MorseCodeBlink_H::sendSymbolColon()
 {
+  //dah
+  digitalWrite(_pin, HIGH);
+  delay(blinkDuration * 3);
+  digitalWrite(_pin, LOW);
 
+  //component break
+  delay(blinkDuration);
+
+  //dah
+  digitalWrite(_pin, HIGH);
+  delay(blinkDuration * 3);
+  digitalWrite(_pin, LOW);
+
+  //component break
+  delay(blinkDuration);
+
+  //dah
+  digitalWrite(_pin, HIGH);
+  delay(blinkDuration * 3);
+  digitalWrite(_pin, LOW);
+
+  //component break
+  delay(blinkDuration);
+
+  //dit
+  digitalWrite(_pin, HIGH);
+  delay(blinkDuration);
+  digitalWrite(_pin, LOW);
+
+  //component break
+  delay(blinkDuration);
+
+  //dit
+  digitalWrite(_pin, HIGH);
+  delay(blinkDuration);
+  digitalWrite(_pin, LOW);
+
+  //component break
+  delay(blinkDuration);
+
+  //dit
+  digitalWrite(_pin, HIGH);
+  delay(blinkDuration);
+  digitalWrite(_pin, LOW);
 }
 
 MorseCodeBlink_H::sendSymbolQuestionMark()
 {
+  //dit
+  digitalWrite(_pin, HIGH);
+  delay(blinkDuration);
+  digitalWrite(_pin, LOW);
 
+  //component break
+  delay(blinkDuration);
+
+  //dit
+  digitalWrite(_pin, HIGH);
+  delay(blinkDuration);
+  digitalWrite(_pin, LOW);
+
+  //component break
+  delay(blinkDuration);
+
+  //dah
+  digitalWrite(_pin, HIGH);
+  delay(blinkDuration * 3);
+  digitalWrite(_pin, LOW);
+
+  //component break
+  delay(blinkDuration);
+
+  //dah
+  digitalWrite(_pin, HIGH);
+  delay(blinkDuration * 3);
+  digitalWrite(_pin, LOW);
+
+  //component break
+  delay(blinkDuration);
+
+  //dit
+  digitalWrite(_pin, HIGH);
+  delay(blinkDuration);
+  digitalWrite(_pin, LOW);
+
+  //component break
+  delay(blinkDuration);
+
+  //dit
+  digitalWrite(_pin, HIGH);
+  delay(blinkDuration);
+  digitalWrite(_pin, LOW);
 }
 
 MorseCodeBlink_H::sendSymbolApostrophe()
 {
+  //dit
+  digitalWrite(_pin, HIGH);
+  delay(blinkDuration);
+  digitalWrite(_pin, LOW);
 
+  //component break
+  delay(blinkDuration);
+
+  //dah
+  digitalWrite(_pin, HIGH);
+  delay(blinkDuration * 3);
+  digitalWrite(_pin, LOW);
+
+  //component break
+  delay(blinkDuration);
+
+  //dah
+  digitalWrite(_pin, HIGH);
+  delay(blinkDuration * 3);
+  digitalWrite(_pin, LOW);
+
+  //component break
+  delay(blinkDuration);
+
+  //dah
+  digitalWrite(_pin, HIGH);
+  delay(blinkDuration * 3);
+  digitalWrite(_pin, LOW);
+
+  //component break
+  delay(blinkDuration);
+
+  //dah
+  digitalWrite(_pin, HIGH);
+  delay(blinkDuration * 3);
+  digitalWrite(_pin, LOW);
+
+  //component break
+  delay(blinkDuration);
+
+  //dit
+  digitalWrite(_pin, HIGH);
+  delay(blinkDuration);
+  digitalWrite(_pin, LOW);
 }
 
 MorseCodeBlink_H::sendSymbolHyphen()
 {
+  //dah
+  digitalWrite(_pin, HIGH);
+  delay(blinkDuration * 3);
+  digitalWrite(_pin, LOW);
 
+  //component break
+  delay(blinkDuration);
+
+  //dit
+  digitalWrite(_pin, HIGH);
+  delay(blinkDuration);
+  digitalWrite(_pin, LOW);
+
+  //component break
+  delay(blinkDuration);
+
+  //dit
+  digitalWrite(_pin, HIGH);
+  delay(blinkDuration);
+  digitalWrite(_pin, LOW);
+
+  //component break
+  delay(blinkDuration);
+
+  //dit
+  digitalWrite(_pin, HIGH);
+  delay(blinkDuration);
+  digitalWrite(_pin, LOW);
+
+  //component break
+  delay(blinkDuration);
+
+  //dit
+  digitalWrite(_pin, HIGH);
+  delay(blinkDuration);
+  digitalWrite(_pin, LOW);
+
+  //component break
+  delay(blinkDuration);
+
+  //dah
+  digitalWrite(_pin, HIGH);
+  delay(blinkDuration * 3);
+  digitalWrite(_pin, LOW);
 }
 
 MorseCodeBlink_H::sendSymbolForwardSlash()
 {
+  //dah
+  digitalWrite(_pin, HIGH);
+  delay(blinkDuration * 3);
+  digitalWrite(_pin, LOW);
 
+  //component break
+  delay(blinkDuration);
+
+  //dit
+  digitalWrite(_pin, HIGH);
+  delay(blinkDuration);
+  digitalWrite(_pin, LOW);
+
+  //component break
+  delay(blinkDuration);
+
+  //dit
+  digitalWrite(_pin, HIGH);
+  delay(blinkDuration);
+  digitalWrite(_pin, LOW);
+
+  //component break
+  delay(blinkDuration);
+
+  //dah
+  digitalWrite(_pin, HIGH);
+  delay(blinkDuration * 3);
+  digitalWrite(_pin, LOW);
+
+  //component break
+  delay(blinkDuration);
+
+  //dit
+  digitalWrite(_pin, HIGH);
+  delay(blinkDuration);
+  digitalWrite(_pin, LOW);
 }
 
 MorseCodeBlink_H::sendSymbolBrackets()
 {
+  //dah
+  digitalWrite(_pin, HIGH);
+  delay(blinkDuration * 3);
+  digitalWrite(_pin, LOW);
 
+  //component break
+  delay(blinkDuration);
+
+  //dit
+  digitalWrite(_pin, HIGH);
+  delay(blinkDuration);
+  digitalWrite(_pin, LOW);
+
+  //component break
+  delay(blinkDuration);
+
+  //dah
+  digitalWrite(_pin, HIGH);
+  delay(blinkDuration * 3);
+  digitalWrite(_pin, LOW);
+
+  //component break
+  delay(blinkDuration);
+
+  //dah
+  digitalWrite(_pin, HIGH);
+  delay(blinkDuration * 3);
+  digitalWrite(_pin, LOW);
+
+  //component break
+  delay(blinkDuration);
+
+  //dit
+  digitalWrite(_pin, HIGH);
+  delay(blinkDuration);
+  digitalWrite(_pin, LOW);
+
+  //component break
+  delay(blinkDuration);
+
+  //dah
+  digitalWrite(_pin, HIGH);
+  delay(blinkDuration * 3);
+  digitalWrite(_pin, LOW);
 }
 
 MorseCodeBlink_H::sendSymbolQuotationMarks()
 {
+  //dit
+  digitalWrite(_pin, HIGH);
+  delay(blinkDuration);
+  digitalWrite(_pin, LOW);
 
+  //component break
+  delay(blinkDuration);
+
+  //dah
+  digitalWrite(_pin, HIGH);
+  delay(blinkDuration * 3);
+  digitalWrite(_pin, LOW);
+
+  //component break
+  delay(blinkDuration);
+
+  //dit
+  digitalWrite(_pin, HIGH);
+  delay(blinkDuration);
+  digitalWrite(_pin, LOW);
+
+  //component break
+  delay(blinkDuration);
+
+  //dit
+  digitalWrite(_pin, HIGH);
+  delay(blinkDuration);
+  digitalWrite(_pin, LOW);
+
+  //component break
+  delay(blinkDuration);
+
+  //dah
+  digitalWrite(_pin, HIGH);
+  delay(blinkDuration * 3);
+  digitalWrite(_pin, LOW);
+
+  //component break
+  delay(blinkDuration);
+
+  //dit
+  digitalWrite(_pin, HIGH);
+  delay(blinkDuration);
+  digitalWrite(_pin, LOW);
 }
 
 MorseCodeBlink_H::sendSymbolAtSign()
 {
+  //dit
+  digitalWrite(_pin, HIGH);
+  delay(blinkDuration);
+  digitalWrite(_pin, LOW);
 
+  //component break
+  delay(blinkDuration);
+
+  //dah
+  digitalWrite(_pin, HIGH);
+  delay(blinkDuration * 3);
+  digitalWrite(_pin, LOW);
+
+  //component break
+  delay(blinkDuration);
+
+  //dah
+  digitalWrite(_pin, HIGH);
+  delay(blinkDuration * 3);
+  digitalWrite(_pin, LOW);
+
+  //component break
+  delay(blinkDuration);
+
+  //dit
+  digitalWrite(_pin, HIGH);
+  delay(blinkDuration);
+  digitalWrite(_pin, LOW);
+
+  //component break
+  delay(blinkDuration);
+
+  //dah
+  digitalWrite(_pin, HIGH);
+  delay(blinkDuration * 3);
+  digitalWrite(_pin, LOW);
+
+  //component break
+  delay(blinkDuration);
+
+  //dit
+  digitalWrite(_pin, HIGH);
+  delay(blinkDuration);
+  digitalWrite(_pin, LOW);
 }
 
 MorseCodeBlink_H::sendSymbolEqualsSign()
 {
-  
+  //dah
+  digitalWrite(_pin, HIGH);
+  delay(blinkDuration * 3);
+  digitalWrite(_pin, LOW);
+
+  //component break
+  delay(blinkDuration);
+
+  //dit
+  digitalWrite(_pin, HIGH);
+  delay(blinkDuration);
+  digitalWrite(_pin, LOW);
+
+  //component break
+  delay(blinkDuration);
+
+  //dit
+  digitalWrite(_pin, HIGH);
+  delay(blinkDuration);
+  digitalWrite(_pin, LOW);
+
+  //component break
+  delay(blinkDuration);
+
+  //dit
+  digitalWrite(_pin, HIGH);
+  delay(blinkDuration);
+  digitalWrite(_pin, LOW);
+
+  //component break
+  delay(blinkDuration);
+
+  //dah
+  digitalWrite(_pin, HIGH);
+  delay(blinkDuration * 3);
+  digitalWrite(_pin, LOW);
 }
