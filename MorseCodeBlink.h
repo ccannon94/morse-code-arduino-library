@@ -19,7 +19,7 @@ class MorseCodeBlink
 {
     public:
         MorseCodeBlink(uint8_t pin, uint16_t blinkDuration)
-        
+
         void sendLetterA();
         void sendLetterB();
         void sendLetterC();
@@ -46,7 +46,7 @@ class MorseCodeBlink
         void sendLetterX();
         void sendLetterY();
         void sendLetterZ();
-        
+
         void sendDigit0();
         void sendDigit1();
         void sendDigit2();
@@ -73,7 +73,6 @@ class MorseCodeBlink
         void sendProsignAA();
         void sendProsignAR();
         void sendProsignAS();
-        void sendProsignBK();
         void sendProsignBK();
         void sendProsignBT();
         void sendProsignCL();
