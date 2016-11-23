@@ -2,7 +2,7 @@
     Morse Code Blink library for Arduino Uno
 
     This library contains LED blink sequences for Morse Code on Arduino boards.
-    By default, this library works with pin 13 of an Arduino Uno.
+    By default, this library works with a given output pin of an Arduino Uno.
 
     Published under GNU General Public License v3
 
