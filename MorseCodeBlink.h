@@ -94,6 +94,8 @@ class MorseCodeBlink
         void sendQCodeQTH();
         void sendQCodeQTHQuery();
 
+        void sendERROR();
+
     private:
         uint8_t _pin;
         uint16_t _blinkDuration;
