@@ -20,6 +20,20 @@ MorseCodeBlink_H::MorseCodeBlink(uint8_t pin, uint16_t blinkDuration)
   pinmode(pin, OUTPUT);
 }
 
+MorseCodeBlink_H::sendWord(std::string word)
+{
+  for(int i = 0; i < word.length(); i++)
+  {
+    sendLetter(word[i]);
+  }
+
+}
+
+MorseCodeBlink_H::sendSentence(std::string sentence)
+{
+
+}
+
 MorseCodeBlink_H::sendLetterA()
 {
   //dit
@@ -1947,4 +1961,57 @@ MorseCodeBlink_H::sendERROR()
   digitalWrite(_pin, HIGH);
   delay(blinkDuration);
   digitalWrite(_pin, LOW);
+}
+
+private void sendLetter(char letter)
+{
+  if(letter == 'a' || letter == 'A')
+  {
+    sendLetterA();
+  }else if(letter == 'b' || letter == 'B')
+  {
+    sendLetterB();
+  }else if(letter == 'c' || letter == 'C')
+  {
+    sendLetterC();
+  }else if(letter == 'd' || letter == 'D')
+  {
+    sendLetterD();
+  }else if(letter == 'e' || letter == 'E')
+  {
+    sendLetterE();
+  }else if(letter == 'f' || letter == 'F')
+  {
+    sendLetterF();
+  }else if(letter == 'g' || letter == 'G')
+  {
+    sendLetterG();
+  }else if(letter == 'h' || letter == 'H')
+  {
+    sendLetterH();
+  }else if(letter == 'i' || letter == 'I')
+  {
+    sendLetterI();
+  }else if(letter == 'j' || letter == 'J')
+  {
+    sendLetterJ();
+  }else if(letter == 'k' || letter == 'K')
+  {
+    sendLetterK();
+  }else if(letter == 'l' || letter == 'L')
+  {
+    sendLetterL();
+  }else if(letter == 'm' || letter == 'M')
+  {
+    sendLetterM();
+  }else if(letter == 'n' || letter == 'N')
+  {
+    sendLetterN();
+  }else if(letter == 'o' || letter == 'O')
+  {
+    sendLetterO();
+  }else if(letter == 'p' || letter == 'P')
+  {
+    sendLetterP();
+  }
 }
