@@ -20,8 +20,8 @@ class MorseCodeBlink
     public:
         MorseCodeBlink(uint8_t pin, uint16_t blinkDuration)
 
-        std::string sendWord();
-        std::string sendSentence();
+        std::string sendWord(std::string word);
+        std::string sendSentence(std::string sentence);
 
         void sendLetterA();
         void sendLetterB();
