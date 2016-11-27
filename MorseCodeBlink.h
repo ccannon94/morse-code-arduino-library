@@ -96,6 +96,9 @@ class MorseCodeBlink
 
         void sendERROR();
 
+        std::string sendWord();
+        std::string sendSentence();
+
     private:
         uint8_t _pin;
         uint16_t _blinkDuration;
