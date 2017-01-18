@@ -2013,5 +2013,35 @@ private void sendLetter(char letter)
   }else if(letter == 'p' || letter == 'P')
   {
     sendLetterP();
+  }else if(letter == 'q' || letter == 'Q')
+  {
+    sendLetterQ();
+  }else if(letter == 'r' || letter == 'R')
+  {
+    sendLetterR();
+  }else if(letter == 's' || letter == 'S')
+  {
+    sendLetterS();
+  }else if(letter == 't' || letter == 'T')
+  {
+    sendLetterT();
+  }else if(letter == 'u' || letter == 'U')
+  {
+    sendLetterU();
+  }else if(letter == 'v' || letter == 'V')
+  {
+    sendLetterV();
+  }else if(letter == 'w' || letter == 'W')
+  {
+    sendLetterW();
+  }else if(letter == 'x' || letter == 'X')
+  {
+    sendLetterX();
+  }else if(letter == 'y' || letter == 'Y')
+  {
+    sendLetterY();
+  }else if(letter == 'z' || letter == 'Z')
+  {
+    sendLetterZ();
   }
 }
