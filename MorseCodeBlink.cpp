@@ -10,7 +10,11 @@
     @version 0.1 08/28/2016
 */
 
+using namespace std;
+
 #include "MorseCodeBlink_H"
+#include "sstream"
+#include "stream"
 
 MorseCodeBlink_H::MorseCodeBlink(uint8_t pin, uint16_t blinkDuration)
 {
@@ -31,7 +35,12 @@ MorseCodeBlink_H::sendWord(std::string word)
 
 MorseCodeBlink_H::sendSentence(std::string sentence)
 {
+  istringstream sentenceStream;
+  sentenceStream.str(sentence);
 
+  while(sentenceStream >> word){
+    sendWord(word);
+  }
 }
 
 MorseCodeBlink_H::sendLetterA()
