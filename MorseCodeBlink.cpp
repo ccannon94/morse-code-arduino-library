@@ -10,7 +10,11 @@
     @version 0.1 08/28/2016
 */
 
+using namespace std;
+
 #include "MorseCodeBlink_H"
+#include "sstream"
+#include "stream"
 
 MorseCodeBlink_H::MorseCodeBlink(uint8_t pin, uint16_t blinkDuration)
 {
@@ -18,6 +22,25 @@ MorseCodeBlink_H::MorseCodeBlink(uint8_t pin, uint16_t blinkDuration)
   _blinkDuration = blinkDuration;
 
   pinmode(pin, OUTPUT);
+}
+
+MorseCodeBlink_H::sendWord(std::string word)
+{
+  for(int i = 0; i < word.length(); i++)
+  {
+    sendLetter(word[i]);
+  }
+
+}
+
+MorseCodeBlink_H::sendSentence(std::string sentence)
+{
+  istringstream sentenceStream;
+  sentenceStream.str(sentence);
+
+  while(sentenceStream >> word){
+    sendWord(word);
+  }
 }
 
 MorseCodeBlink_H::sendLetterA()
@@ -1947,4 +1970,87 @@ MorseCodeBlink_H::sendERROR()
   digitalWrite(_pin, HIGH);
   delay(blinkDuration);
   digitalWrite(_pin, LOW);
+}
+
+private void sendLetter(char letter)
+{
+  if(letter == 'a' || letter == 'A')
+  {
+    sendLetterA();
+  }else if(letter == 'b' || letter == 'B')
+  {
+    sendLetterB();
+  }else if(letter == 'c' || letter == 'C')
+  {
+    sendLetterC();
+  }else if(letter == 'd' || letter == 'D')
+  {
+    sendLetterD();
+  }else if(letter == 'e' || letter == 'E')
+  {
+    sendLetterE();
+  }else if(letter == 'f' || letter == 'F')
+  {
+    sendLetterF();
+  }else if(letter == 'g' || letter == 'G')
+  {
+    sendLetterG();
+  }else if(letter == 'h' || letter == 'H')
+  {
+    sendLetterH();
+  }else if(letter == 'i' || letter == 'I')
+  {
+    sendLetterI();
+  }else if(letter == 'j' || letter == 'J')
+  {
+    sendLetterJ();
+  }else if(letter == 'k' || letter == 'K')
+  {
+    sendLetterK();
+  }else if(letter == 'l' || letter == 'L')
+  {
+    sendLetterL();
+  }else if(letter == 'm' || letter == 'M')
+  {
+    sendLetterM();
+  }else if(letter == 'n' || letter == 'N')
+  {
+    sendLetterN();
+  }else if(letter == 'o' || letter == 'O')
+  {
+    sendLetterO();
+  }else if(letter == 'p' || letter == 'P')
+  {
+    sendLetterP();
+  }else if(letter == 'q' || letter == 'Q')
+  {
+    sendLetterQ();
+  }else if(letter == 'r' || letter == 'R')
+  {
+    sendLetterR();
+  }else if(letter == 's' || letter == 'S')
+  {
+    sendLetterS();
+  }else if(letter == 't' || letter == 'T')
+  {
+    sendLetterT();
+  }else if(letter == 'u' || letter == 'U')
+  {
+    sendLetterU();
+  }else if(letter == 'v' || letter == 'V')
+  {
+    sendLetterV();
+  }else if(letter == 'w' || letter == 'W')
+  {
+    sendLetterW();
+  }else if(letter == 'x' || letter == 'X')
+  {
+    sendLetterX();
+  }else if(letter == 'y' || letter == 'Y')
+  {
+    sendLetterY();
+  }else if(letter == 'z' || letter == 'Z')
+  {
+    sendLetterZ();
+  }
 }
