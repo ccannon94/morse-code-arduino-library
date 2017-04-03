@@ -12,11 +12,10 @@
 
 using namespace std;
 
-#include "MorseCodeBlink_H"
+#include "MorseCodeBlink.h"
 #include "sstream"
-#include "stream"
 
-MorseCodeBlink_H::MorseCodeBlink(uint8_t pin, uint16_t blinkDuration)
+MorseCodeBlink.H::MorseCodeBlink(uint8_t pin, uint16_t blinkDuration)
 {
   _pin = pin;
   _blinkDuration = blinkDuration;
