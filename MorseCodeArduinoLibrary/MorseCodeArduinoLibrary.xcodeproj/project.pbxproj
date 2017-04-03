@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4BE92D621E92DB86001F5162 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4BE92D611E92DB86001F5162 /* main.cpp */; };
+		4BE92D6A1E92DBF6001F5162 /* MorseCodeBlink.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4BE92D681E92DBF6001F5162 /* MorseCodeBlink.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		4BE92D5E1E92DB86001F5162 /* MorseCodeArduinoLibrary */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MorseCodeArduinoLibrary; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BE92D611E92DB86001F5162 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4BE92D681E92DBF6001F5162 /* MorseCodeBlink.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MorseCodeBlink.cpp; sourceTree = "<group>"; };
+		4BE92D691E92DBF6001F5162 /* MorseCodeBlink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MorseCodeBlink.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +60,8 @@
 		4BE92D601E92DB86001F5162 /* MorseCodeArduinoLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				4BE92D681E92DBF6001F5162 /* MorseCodeBlink.cpp */,
+				4BE92D691E92DBF6001F5162 /* MorseCodeBlink.h */,
 				4BE92D611E92DB86001F5162 /* main.cpp */,
 			);
 			path = MorseCodeArduinoLibrary;
@@ -120,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BE92D6A1E92DBF6001F5162 /* MorseCodeBlink.cpp in Sources */,
 				4BE92D621E92DB86001F5162 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
